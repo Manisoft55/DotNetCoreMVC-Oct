@@ -15,6 +15,7 @@ namespace WebApiSample
 {
     public class Startup
     {
+        // Test .Net class
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
