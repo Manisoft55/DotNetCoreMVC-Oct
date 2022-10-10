@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8e52667d-7fd0-49d2-b6ee-e6c1cd8a86cd": {
+      "ProjectGuid": "8e52667d-7fd0-49d2-b6ee-e6c1cd8a86cd",
+      "DisplayName": "WebApiSample",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
