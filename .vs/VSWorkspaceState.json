@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WebApiSample",
+    "\\WebApiSample\\WebApiSample",
+    "\\WebApiSample\\WebApiSample\\Controllers"
   ],
-  "SelectedNode": "\\C:\\Users\\manik\\Source\\Repos\\DotNetCoreMVC-Oct",
+  "SelectedNode": "\\WebApiSample\\WebApiSample\\Controllers\\ApiPractiseController.cs",
   "PreviewInSolutionExplorer": false
 }
