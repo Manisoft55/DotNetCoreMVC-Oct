@@ -1,0 +1,10 @@
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DAL\bin\Debug\netcoreapp3.1\EmployeeManagement.DAL.deps.json
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DAL\bin\Debug\netcoreapp3.1\EmployeeManagement.DAL.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DAL\bin\Debug\netcoreapp3.1\EmployeeManagement.DAL.pdb
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DAL\obj\Debug\netcoreapp3.1\EmployeeManagement.DAL.csproj.AssemblyReference.cache
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DAL\obj\Debug\netcoreapp3.1\EmployeeManagement.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DAL\obj\Debug\netcoreapp3.1\EmployeeManagement.DAL.AssemblyInfoInputs.cache
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DAL\obj\Debug\netcoreapp3.1\EmployeeManagement.DAL.AssemblyInfo.cs
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DAL\obj\Debug\netcoreapp3.1\EmployeeManagement.DAL.csproj.CoreCompileInputs.cache
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DAL\obj\Debug\netcoreapp3.1\EmployeeManagement.DAL.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DAL\obj\Debug\netcoreapp3.1\EmployeeManagement.DAL.pdb
