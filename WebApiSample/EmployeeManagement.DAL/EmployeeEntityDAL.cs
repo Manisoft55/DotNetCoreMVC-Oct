@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 
 namespace EmployeeManagement.DAL
 {
-    public class EmployeeEntity
+    public class EmployeeEntityDAL
     {
         public DataSet GetAllEmployee()
         {

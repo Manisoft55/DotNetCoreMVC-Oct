@@ -1,0 +1,13 @@
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\bin\Debug\netcoreapp3.1\EmployeeManagement.BLL.deps.json
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\bin\Debug\netcoreapp3.1\EmployeeManagement.BLL.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\bin\Debug\netcoreapp3.1\EmployeeManagement.BLL.pdb
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\bin\Debug\netcoreapp3.1\EmployeeManagement.DAL.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\bin\Debug\netcoreapp3.1\EmployeeManagement.DAL.pdb
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\obj\Debug\netcoreapp3.1\EmployeeManagement.BLL.csproj.AssemblyReference.cache
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\obj\Debug\netcoreapp3.1\EmployeeManagement.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\obj\Debug\netcoreapp3.1\EmployeeManagement.BLL.AssemblyInfoInputs.cache
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\obj\Debug\netcoreapp3.1\EmployeeManagement.BLL.AssemblyInfo.cs
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\obj\Debug\netcoreapp3.1\EmployeeManagement.BLL.csproj.CoreCompileInputs.cache
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\obj\Debug\netcoreapp3.1\EmployeeManagement.BLL.csproj.CopyComplete
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\obj\Debug\netcoreapp3.1\EmployeeManagement.BLL.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\obj\Debug\netcoreapp3.1\EmployeeManagement.BLL.pdb

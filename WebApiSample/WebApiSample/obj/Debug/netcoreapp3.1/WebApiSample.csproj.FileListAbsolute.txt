@@ -17,3 +17,14 @@ C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\obj\Debu
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\obj\Debug\netcoreapp3.1\WebApiSample.dll
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\obj\Debug\netcoreapp3.1\WebApiSample.pdb
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\obj\Debug\netcoreapp3.1\WebApiSample.genruntimeconfig.cache
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\EmployeeManagement.BLL.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\EmployeeManagement.DAL.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\EmployeeManagement.BLL.pdb
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\EmployeeManagement.DAL.pdb
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\obj\Debug\netcoreapp3.1\WebApiSample.csproj.CopyComplete

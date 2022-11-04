@@ -5,7 +5,12 @@
       "ProjectGuid": "8e52667d-7fd0-49d2-b6ee-e6c1cd8a86cd",
       "DisplayName": "WebApiSample",
       "ColorIndex": 0
+    },
+    "7df346b1-fb17-4487-9a2d-9b1aa0b3368d": {
+      "ProjectGuid": "7df346b1-fb17-4487-9a2d-9b1aa0b3368d",
+      "DisplayName": "EmployeeManagement.DAL",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

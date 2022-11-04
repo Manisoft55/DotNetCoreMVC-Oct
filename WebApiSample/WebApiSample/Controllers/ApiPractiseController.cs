@@ -1,5 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using EmployeeManagement.BLL;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
+using System.Net;
+using System.Net.Http;
 
 namespace WebApiSample.Controllers
 {
@@ -13,11 +17,20 @@ namespace WebApiSample.Controllers
         //{
         //    return "Output";
         //}
+        
+        EmployeeEntityBL employeeEntityBL = new EmployeeEntityBL();
+
+        //[HttpGet]
+        //public string InputData(string inputVariable)
+        //{
+        //    return $"Your input data is {inputVariable}";
+        //}
 
         [HttpGet]
-        public string InputData(string inputVariable)
+        public DataTable GetAllEmployee()
         {
-            return $"Your input data is {inputVariable}";
+            var data = employeeEntityBL.GetAllEmployeeDetails().Tables[0];
+            return data;
         }
     }
 }
