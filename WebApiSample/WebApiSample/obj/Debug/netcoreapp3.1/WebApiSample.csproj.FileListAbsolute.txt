@@ -28,3 +28,10 @@ C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debu
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\EmployeeManagement.BLL.pdb
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\EmployeeManagement.DAL.pdb
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\obj\Debug\netcoreapp3.1\WebApiSample.csproj.CopyComplete
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\obj\Debug\netcoreapp3.1\WebApiSample.MvcApplicationPartsAssemblyInfo.cs

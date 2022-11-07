@@ -26,7 +26,9 @@ namespace WebApiSample
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            //services.AddSwaggerGen();
+            //services.AddSwaggerGen();
+            services.AddControllers();            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +44,13 @@ namespace WebApiSample
             app.UseRouting();
 
             app.UseAuthorization();
+
+            //app.UseSwagger();
+            //app.UseSwaggerUI(c =>
+            //{
+            //    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Showing API V1");
+            //});
+
 
             app.UseEndpoints(endpoints =>
             {

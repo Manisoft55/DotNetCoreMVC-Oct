@@ -11,5 +11,15 @@ namespace EmployeeManagement.BLL
         {
             return employeeDAL.GetAllEmployee();
         }
+
+        public void UpdateEmployee(string empName, int empId)
+        {
+            employeeDAL.UpdateEmployee(empName, empId);
+        }
+
+        public void DeleteEmployee(int empId)
+        {
+            employeeDAL.DeleteEmployee(empId);
+        }
     }
 }

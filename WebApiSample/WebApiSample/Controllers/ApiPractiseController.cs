@@ -1,6 +1,7 @@
 ﻿using EmployeeManagement.BLL;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Data;
 using System.Net;
 using System.Net.Http;
@@ -27,10 +28,22 @@ namespace WebApiSample.Controllers
         //}
 
         [HttpGet]
-        public DataTable GetAllEmployee()
+        public string GetAllEmployee()
         {
             var data = employeeEntityBL.GetAllEmployeeDetails().Tables[0];
-            return data;
+            return JsonConvert.SerializeObject(data);
+         }
+
+        [HttpPut]
+        public void UpdateEmployee(string employeeName, int empId)
+        {
+            employeeEntityBL.UpdateEmployee(employeeName, empId);
+        }
+
+        [HttpDelete]
+        public void DeleteEmployee(int empId)
+        {
+            employeeEntityBL.DeleteEmployee(empId);
         }
     }
 }
