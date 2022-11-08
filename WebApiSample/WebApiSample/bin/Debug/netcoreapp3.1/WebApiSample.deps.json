@@ -32,6 +32,7 @@
       "WebApiSample/1.0.0": {
         "dependencies": {
           "EmployeeManagement.BLL": "1.0.0",
+          "EmployeeManagement.Model": "1.0.0",
           "Newtonsoft.Json": "13.0.1",
           "Swashbuckle.AspNetCore.Swagger": "3.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -1522,7 +1523,8 @@
       },
       "EmployeeManagement.BLL/1.0.0": {
         "dependencies": {
-          "EmployeeManagement.DAL": "1.0.0"
+          "EmployeeManagement.DAL": "1.0.0",
+          "EmployeeManagement.Model": "1.0.0"
         },
         "runtime": {
           "EmployeeManagement.BLL.dll": {}
@@ -1533,6 +1535,7 @@
       },
       "EmployeeManagement.DAL/1.0.0": {
         "dependencies": {
+          "EmployeeManagement.Model": "1.0.0",
           "System.Data.SqlClient": "4.8.4"
         },
         "runtime": {
@@ -1540,6 +1543,14 @@
         },
         "compile": {
           "EmployeeManagement.DAL.dll": {}
+        }
+      },
+      "EmployeeManagement.Model/1.0.0": {
+        "runtime": {
+          "EmployeeManagement.Model.dll": {}
+        },
+        "compile": {
+          "EmployeeManagement.Model.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4095,6 +4106,11 @@
       "sha512": ""
     },
     "EmployeeManagement.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EmployeeManagement.Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

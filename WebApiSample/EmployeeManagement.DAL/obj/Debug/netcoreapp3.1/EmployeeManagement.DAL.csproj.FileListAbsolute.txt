@@ -8,3 +8,6 @@ C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DA
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DAL\obj\Debug\netcoreapp3.1\EmployeeManagement.DAL.csproj.CoreCompileInputs.cache
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DAL\obj\Debug\netcoreapp3.1\EmployeeManagement.DAL.dll
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DAL\obj\Debug\netcoreapp3.1\EmployeeManagement.DAL.pdb
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DAL\bin\Debug\netcoreapp3.1\EmployeeManagement.Model.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DAL\bin\Debug\netcoreapp3.1\EmployeeManagement.Model.pdb
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.DAL\obj\Debug\netcoreapp3.1\EmployeeManagement.DAL.csproj.CopyComplete

@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "EmployeeManagement.BLL/1.0.0": {
         "dependencies": {
-          "EmployeeManagement.DAL": "1.0.0"
+          "EmployeeManagement.DAL": "1.0.0",
+          "EmployeeManagement.Model": "1.0.0"
         },
         "runtime": {
           "EmployeeManagement.BLL.dll": {}
@@ -91,10 +92,16 @@
       "System.Security.Principal.Windows/4.7.0": {},
       "EmployeeManagement.DAL/1.0.0": {
         "dependencies": {
+          "EmployeeManagement.Model": "1.0.0",
           "System.Data.SqlClient": "4.8.4"
         },
         "runtime": {
           "EmployeeManagement.DAL.dll": {}
+        }
+      },
+      "EmployeeManagement.Model/1.0.0": {
+        "runtime": {
+          "EmployeeManagement.Model.dll": {}
         }
       }
     }
@@ -169,6 +176,11 @@
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
     "EmployeeManagement.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EmployeeManagement.Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

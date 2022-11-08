@@ -1,4 +1,5 @@
 ﻿using EmployeeManagement.BLL;
+using EmployeeManagement.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -44,6 +45,13 @@ namespace WebApiSample.Controllers
         public void DeleteEmployee(int empId)
         {
             employeeEntityBL.DeleteEmployee(empId);
+        }
+
+        [HttpPost]
+        public int CreateEmployee([FromBody]EmployeeDetails employeeDetails)
+        {
+            var empId = employeeEntityBL.CreateEmployee(employeeDetails);
+            return empId;
         }
     }
 }

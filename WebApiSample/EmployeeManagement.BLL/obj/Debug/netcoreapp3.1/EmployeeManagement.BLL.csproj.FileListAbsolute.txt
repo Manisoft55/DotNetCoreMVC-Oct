@@ -11,3 +11,5 @@ C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BL
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\obj\Debug\netcoreapp3.1\EmployeeManagement.BLL.csproj.CopyComplete
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\obj\Debug\netcoreapp3.1\EmployeeManagement.BLL.dll
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\obj\Debug\netcoreapp3.1\EmployeeManagement.BLL.pdb
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\bin\Debug\netcoreapp3.1\EmployeeManagement.Model.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.BLL\bin\Debug\netcoreapp3.1\EmployeeManagement.Model.pdb

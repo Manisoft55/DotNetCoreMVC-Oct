@@ -130,6 +130,16 @@
             "rid": "win"
           }
         }
+      },
+      "EmployeeManagement.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/EmployeeManagement.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeManagement.Model.dll": {}
+        }
       }
     }
   },
@@ -446,10 +456,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "EmployeeManagement.Model/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeManagement.Model/EmployeeManagement.Model.csproj",
+      "msbuildProject": "../EmployeeManagement.Model/EmployeeManagement.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "EmployeeManagement.Model >= 1.0.0",
       "System.Data.SqlClient >= 4.8.4"
     ]
   },
@@ -479,7 +495,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\manik\\source\\repos\\DotNetCoreMVC-Oct\\WebApiSample\\EmployeeManagement.Model\\EmployeeManagement.Model.csproj": {
+              "projectPath": "C:\\Users\\manik\\source\\repos\\DotNetCoreMVC-Oct\\WebApiSample\\EmployeeManagement.Model\\EmployeeManagement.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

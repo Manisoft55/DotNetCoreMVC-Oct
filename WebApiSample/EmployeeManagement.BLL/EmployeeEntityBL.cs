@@ -1,4 +1,5 @@
 ﻿using EmployeeManagement.DAL;
+using EmployeeManagement.Model;
 using System;
 using System.Data;
 
@@ -20,6 +21,12 @@ namespace EmployeeManagement.BLL
         public void DeleteEmployee(int empId)
         {
             employeeDAL.DeleteEmployee(empId);
+        }
+
+        public int CreateEmployee(EmployeeDetails employeeDetails)
+        {
+            var empId = employeeDAL.CreateEmployee(employeeDetails);
+            return empId;
         }
     }
 }

@@ -1,0 +1,10 @@
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.Model\bin\Debug\netcoreapp3.1\EmployeeManagement.Model.deps.json
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.Model\bin\Debug\netcoreapp3.1\EmployeeManagement.Model.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.Model\bin\Debug\netcoreapp3.1\EmployeeManagement.Model.pdb
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.Model\obj\Debug\netcoreapp3.1\EmployeeManagement.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.Model\obj\Debug\netcoreapp3.1\EmployeeManagement.Model.AssemblyInfoInputs.cache
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.Model\obj\Debug\netcoreapp3.1\EmployeeManagement.Model.AssemblyInfo.cs
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.Model\obj\Debug\netcoreapp3.1\EmployeeManagement.Model.csproj.CoreCompileInputs.cache
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.Model\obj\Debug\netcoreapp3.1\EmployeeManagement.Model.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.Model\obj\Debug\netcoreapp3.1\EmployeeManagement.Model.pdb
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\EmployeeManagement.Model\obj\Debug\netcoreapp3.1\EmployeeManagement.Model.csproj.AssemblyReference.cache

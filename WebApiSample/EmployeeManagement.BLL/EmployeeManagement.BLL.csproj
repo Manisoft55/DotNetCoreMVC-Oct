@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EmployeeManagement.DAL\EmployeeManagement.DAL.csproj" />
+    <ProjectReference Include="..\EmployeeManagement.Model\EmployeeManagement.Model.csproj" />
   </ItemGroup>
 
 </Project>

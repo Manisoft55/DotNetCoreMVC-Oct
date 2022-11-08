@@ -1993,7 +1993,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "EmployeeManagement.DAL": "1.0.0"
+          "EmployeeManagement.DAL": "1.0.0",
+          "EmployeeManagement.Model": "1.0.0"
         },
         "compile": {
           "bin/placeholder/EmployeeManagement.BLL.dll": {}
@@ -2006,6 +2007,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "EmployeeManagement.Model": "1.0.0",
           "System.Data.SqlClient": "4.8.4"
         },
         "compile": {
@@ -2013,6 +2015,16 @@
         },
         "runtime": {
           "bin/placeholder/EmployeeManagement.DAL.dll": {}
+        }
+      },
+      "EmployeeManagement.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/EmployeeManagement.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeManagement.Model.dll": {}
         }
       }
     }
@@ -6635,11 +6647,17 @@
       "type": "project",
       "path": "../EmployeeManagement.DAL/EmployeeManagement.DAL.csproj",
       "msbuildProject": "../EmployeeManagement.DAL/EmployeeManagement.DAL.csproj"
+    },
+    "EmployeeManagement.Model/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeManagement.Model/EmployeeManagement.Model.csproj",
+      "msbuildProject": "../EmployeeManagement.Model/EmployeeManagement.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "EmployeeManagement.BLL >= 1.0.0",
+      "EmployeeManagement.Model >= 1.0.0",
       "Newtonsoft.Json >= 13.0.1",
       "Swashbuckle.AspNetCore.Swagger >= 3.0.0"
     ]
@@ -6673,6 +6691,9 @@
           "projectReferences": {
             "C:\\Users\\manik\\source\\repos\\DotNetCoreMVC-Oct\\WebApiSample\\EmployeeManagement.BLL\\EmployeeManagement.BLL.csproj": {
               "projectPath": "C:\\Users\\manik\\source\\repos\\DotNetCoreMVC-Oct\\WebApiSample\\EmployeeManagement.BLL\\EmployeeManagement.BLL.csproj"
+            },
+            "C:\\Users\\manik\\source\\repos\\DotNetCoreMVC-Oct\\WebApiSample\\EmployeeManagement.Model\\EmployeeManagement.Model.csproj": {
+              "projectPath": "C:\\Users\\manik\\source\\repos\\DotNetCoreMVC-Oct\\WebApiSample\\EmployeeManagement.Model\\EmployeeManagement.Model.csproj"
             }
           }
         }

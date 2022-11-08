@@ -10,7 +10,12 @@
       "ProjectGuid": "7df346b1-fb17-4487-9a2d-9b1aa0b3368d",
       "DisplayName": "EmployeeManagement.DAL",
       "ColorIndex": 1
+    },
+    "e3b39ee1-199e-477f-bea1-1f2ab09ce779": {
+      "ProjectGuid": "e3b39ee1-199e-477f-bea1-1f2ab09ce779",
+      "DisplayName": "EmployeeManagement.BLL",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
