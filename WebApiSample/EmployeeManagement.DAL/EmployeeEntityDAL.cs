@@ -76,5 +76,61 @@ namespace EmployeeManagement.DAL
             }                                    
         }
 
+
+        public void UpdateEmployeeDetails(string employeeName, int empId)
+        {            
+            string strConString = @"Data Source=MSP-LAPTOP;Initial Catalog=InstituteCmd;Integrated Security=True";
+            using (SqlConnection con = new SqlConnection(strConString))
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("update employees set first_name = @employeeName where employee_id = @empId", con);
+                cmd.Parameters.AddWithValue("@employeeName", employeeName);
+                cmd.Parameters.AddWithValue("@empId", empId);
+                cmd.ExecuteNonQuery();
+            }            
+        }
+
+        public void DeleteEmployeeDetails(int empId)
+        {
+            string strConString = @"Data Source=MSP-LAPTOP;Initial Catalog=InstituteCmd;Integrated Security=True";
+            using (SqlConnection con = new SqlConnection(strConString))
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("delete from employees where employee_id = @empId", con);
+                cmd.Parameters.AddWithValue("@empId", empId);
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        public int CreateEmployeeDetails(EmployeeInfo employeeInfo)
+        {
+            string strConString = @"Data Source=MSP-LAPTOP;Initial Catalog=InstituteCmd;Integrated Security=True";
+            using (SqlConnection con = new SqlConnection(strConString))
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("dbo.CreateEmployee", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@first_name", employeeInfo.FirstName);
+                cmd.Parameters.AddWithValue("@last_name", employeeInfo.LastName);
+                cmd.Parameters.AddWithValue("@email", employeeInfo.Email);
+                cmd.Parameters.AddWithValue("@phone_number", employeeInfo.Phone);
+                cmd.Parameters.AddWithValue("@hire_date", employeeInfo.HireDate);
+                cmd.Parameters.AddWithValue("@job_id", employeeInfo.JobId);
+                cmd.Parameters.AddWithValue("@salary", employeeInfo.Salary);
+                cmd.Parameters.AddWithValue("@manager_id", employeeInfo.ManagerId);
+                cmd.Parameters.AddWithValue("@department_id", employeeInfo.DepartmentId);
+
+                SqlParameter outputPara = new SqlParameter();
+                outputPara.ParameterName = "@empid";
+                outputPara.Direction = ParameterDirection.Output;
+                outputPara.SqlDbType = SqlDbType.Int;
+                cmd.Parameters.Add(outputPara);
+                cmd.ExecuteNonQuery();
+
+                var empId = outputPara.Value;
+                return Convert.ToInt32(empId);
+            }
+        }
+
     }
 }

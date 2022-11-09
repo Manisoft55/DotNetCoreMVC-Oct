@@ -28,5 +28,20 @@ namespace EmployeeManagement.BLL
             var empId = employeeDAL.CreateEmployee(employeeDetails);
             return empId;
         }
+
+        public void UpdateEmployeeDetails(string employeeName, int empId)
+        {
+            employeeDAL.UpdateEmployeeDetails(employeeName, empId);
+        }
+
+        public void DeleteEmployeeDetails(int empId)
+        {
+            employeeDAL.DeleteEmployeeDetails(empId);
+        }
+
+        public int CreateEmployeeDetails(EmployeeInfo employeeInfo)
+        {
+            return employeeDAL.CreateEmployeeDetails(employeeInfo);
+        }
     }
 }

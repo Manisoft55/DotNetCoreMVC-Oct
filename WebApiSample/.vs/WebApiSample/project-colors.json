@@ -15,7 +15,12 @@
       "ProjectGuid": "e3b39ee1-199e-477f-bea1-1f2ab09ce779",
       "DisplayName": "EmployeeManagement.BLL",
       "ColorIndex": 2
+    },
+    "8e2e3b80-d811-4d74-ac6e-1854ab8c4c88": {
+      "ProjectGuid": "8e2e3b80-d811-4d74-ac6e-1854ab8c4c88",
+      "DisplayName": "EmployeeManagement.Model",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

@@ -35,23 +35,42 @@ namespace WebApiSample.Controllers
             return JsonConvert.SerializeObject(data);
          }
 
+        //[HttpPut]
+        //public void UpdateEmployee(string employeeName, int empId)
+        //{
+        //    employeeEntityBL.UpdateEmployee(employeeName, empId);
+        //}
+
+        //[HttpDelete]
+        //public void DeleteEmployee(int empId)
+        //{
+        //    employeeEntityBL.DeleteEmployee(empId);
+        //}
+
+        //[HttpPost]
+        //public int CreateEmployee([FromBody]EmployeeDetails employeeDetails)
+        //{
+        //    var empId = employeeEntityBL.CreateEmployee(employeeDetails);
+        //    return empId;
+        //}
+
         [HttpPut]
         public void UpdateEmployee(string employeeName, int empId)
         {
-            employeeEntityBL.UpdateEmployee(employeeName, empId);
+            employeeEntityBL.UpdateEmployeeDetails(employeeName, empId);
         }
 
         [HttpDelete]
-        public void DeleteEmployee(int empId)
+        public void DeleteEmployee(int empid)
         {
-            employeeEntityBL.DeleteEmployee(empId);
+            employeeEntityBL.DeleteEmployee(empid);
         }
 
         [HttpPost]
-        public int CreateEmployee([FromBody]EmployeeDetails employeeDetails)
+        public int CreateEmployee([FromBody]EmployeeInfo employeeInfo)
         {
-            var empId = employeeEntityBL.CreateEmployee(employeeDetails);
-            return empId;
+            return employeeEntityBL.CreateEmployeeDetails(employeeInfo);
         }
+
     }
 }
