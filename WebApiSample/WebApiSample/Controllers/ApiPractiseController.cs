@@ -11,7 +11,6 @@ namespace WebApiSample.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    
     public class ApiPractiseController : ControllerBase
     {
         //[HttpGet]
@@ -29,11 +28,12 @@ namespace WebApiSample.Controllers
         //}
 
         [HttpGet]
+        [Route("SelectAllEmployee")]
         public string GetAllEmployee()
         {
             var data = employeeEntityBL.GetAllEmployeeDetails().Tables[0];
             return JsonConvert.SerializeObject(data);
-         }
+        }
 
         //[HttpPut]
         //public void UpdateEmployee(string employeeName, int empId)
@@ -71,6 +71,7 @@ namespace WebApiSample.Controllers
         {
             return employeeEntityBL.CreateEmployeeDetails(employeeInfo);
         }
+        
 
     }
 }
