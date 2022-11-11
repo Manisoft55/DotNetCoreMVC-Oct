@@ -10,7 +10,7 @@ using System.Net.Http;
 namespace WebApiSample.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("employeeapi/[controller]")]
     public class ApiPractiseController : ControllerBase
     {
         //[HttpGet]
@@ -27,8 +27,9 @@ namespace WebApiSample.Controllers
         //    return $"Your input data is {inputVariable}";
         //}
 
+
         [HttpGet]
-        [Route("SelectAllEmployee")]
+        [Route("SelectEmployeeDetails")]
         public string GetAllEmployee()
         {
             var data = employeeEntityBL.GetAllEmployeeDetails().Tables[0];
@@ -53,6 +54,14 @@ namespace WebApiSample.Controllers
         //    var empId = employeeEntityBL.CreateEmployee(employeeDetails);
         //    return empId;
         //}
+
+        [HttpGet("author/{id:int}")]
+        //[HttpGet("author")]
+        public string GetMyId(string id)
+        {
+            return "My id is " + id;
+        }
+
 
         [HttpPut]
         public void UpdateEmployee(string employeeName, int empId)
