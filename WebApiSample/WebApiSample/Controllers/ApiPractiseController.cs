@@ -3,9 +3,12 @@ using EmployeeManagement.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Formatting;
 
 namespace WebApiSample.Controllers
 {
@@ -30,10 +33,24 @@ namespace WebApiSample.Controllers
 
         [HttpGet]
         [Route("SelectEmployeeDetails")]
-        public string GetAllEmployee()
+        public IEnumerable<EmployeeDetails> GetAllEmployee()
         {
             var data = employeeEntityBL.GetAllEmployeeDetails().Tables[0];
-            return JsonConvert.SerializeObject(data);
+            var myData = data.AsEnumerable().Select(r => new EmployeeDetails
+            {
+            EmployeeID = r.Field<int>("employee_id"),
+            EmployeeFirstName = r.Field<string>("first_name"),
+            EmployeeLastName = r.Field<string>("last_name"),
+            EmployeeEmail = r.Field<string>("email"),
+            EmployeePhoneNumber = r.Field<string>("phone_number"),
+            EmployeeHireDate = r.Field<DateTime>("hire_date"),
+            EmployeeJobId = r.Field<int>("job_id"),
+            EmployeeSalary = r.Field<decimal>("salary"),
+            EmployeeManagerID = r.Field<int>("manager_id"),
+            EmployeeDepartmentID = r.Field<int>("department_id")
+            });
+
+            return myData;
         }
 
         //[HttpPut]

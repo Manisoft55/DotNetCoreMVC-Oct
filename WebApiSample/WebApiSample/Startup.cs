@@ -28,7 +28,11 @@ namespace WebApiSample
         {
             //services.AddSwaggerGen();
             //services.AddSwaggerGen();
-            services.AddControllers();            
+            //services.AddControllers();
+            services.AddControllers(options =>
+            {
+                options.RespectBrowserAcceptHeader = true;
+            }).AddXmlSerializerFormatters();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,7 +42,7 @@ namespace WebApiSample
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            //app.UseExceptionHandler();
             app.UseHttpsRedirection();
 
             app.UseRouting();

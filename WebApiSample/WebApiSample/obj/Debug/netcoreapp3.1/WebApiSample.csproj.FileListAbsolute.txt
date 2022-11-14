@@ -37,3 +37,5 @@ C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debu
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\obj\Debug\netcoreapp3.1\WebApiSample.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\EmployeeManagement.Model.dll
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\EmployeeManagement.Model.pdb
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\WebApiSample\WebApiSample\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

@@ -10,7 +10,7 @@ namespace EmployeeManagement.Model
         public string EmployeeLastName { get; set; }
         public string EmployeeEmail {  get; set; }
         public string EmployeePhoneNumber { get; set; }
-        public string EmployeeHireDate {  get; set; }
+        public DateTime EmployeeHireDate {  get; set; }
         public int EmployeeJobId { get; set; }
         public decimal EmployeeSalary  { get; set; }
         public int EmployeeManagerID { get; set; }
