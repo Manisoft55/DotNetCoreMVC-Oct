@@ -42,6 +42,7 @@ namespace WebApiSample
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseStaticFiles();
             //app.UseExceptionHandler();
             app.UseHttpsRedirection();
 
