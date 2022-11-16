@@ -18,11 +18,13 @@ namespace EmployeeMVCApplication.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public ViewResult Index()
         {
             return View();
         }
 
+        [ActionName("GetPrivacy")]
+        //[Route("GetPrivacyDetails")]
         public IActionResult Privacy()
         {
             return View();
@@ -32,6 +34,12 @@ namespace EmployeeMVCApplication.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        [NonAction]
+        public string GetString()
+        {
+            return "Test";
         }
     }
 }
