@@ -20,14 +20,51 @@ namespace EmployeeMVCApplication.Controllers
 
         public ViewResult Index()
         {
+            return View();            
+        }
+
+        public JsonResult ReturnJson()
+        {
+            var author = new
+            {
+                FirstName = "Joydip",
+                LastName = "Kanjilal",
+                Address = "Hyderabad, INDIA"
+            };
+            return Json(author);
+        }
+
+        [Route("[controller]/ReturnHtmlData")]
+        public ViewResult ReturnHtml()
+        {
+            var author = new
+            {
+                FirstName = "Joydip",
+                LastName = "Kanjilal",
+                Address = "Hyderabad, INDIA"
+            };
             return View();
         }
 
-        [ActionName("GetPrivacy")]
-        //[Route("GetPrivacyDetails")]
-        public IActionResult Privacy()
+        [ActionName("PrivacyDetails")]
+        public RedirectResult PrivacyTCS()
+        {
+            return Redirect("https://www.tcs.com/");
+        }
+
+        public ViewResult Privacy()
         {
             return View();
+        }
+
+        public PartialViewResult PartialViewResult()
+        {
+            return PartialView("PartialView");
+        }
+
+        public RedirectToActionResult PrivacyInfo()
+        {
+            return RedirectToAction("ReturnHtml");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -37,9 +74,11 @@ namespace EmployeeMVCApplication.Controllers
         }
 
         [NonAction]
-        public string GetString()
+        public string MyString()
         {
             return "Test";
         }
+
+        
     }
 }

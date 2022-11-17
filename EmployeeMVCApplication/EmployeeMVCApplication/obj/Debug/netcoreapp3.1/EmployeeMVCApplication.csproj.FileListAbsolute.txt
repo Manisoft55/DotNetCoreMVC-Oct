@@ -33,6 +33,8 @@ C:\Users\manik\source\repos\DotNetCoreMVC-Oct\EmployeeMVCApplication\EmployeeMVC
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\EmployeeMVCApplication\EmployeeMVCApplication\obj\Debug\netcoreapp3.1\EmployeeMVCApplication.pdb
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\EmployeeMVCApplication\EmployeeMVCApplication\obj\Debug\netcoreapp3.1\EmployeeMVCApplication.genruntimeconfig.cache
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\EmployeeMVCApplication\EmployeeMVCApplication\obj\Debug\netcoreapp3.1\EmployeeMVCApplication.csproj.CopyComplete
-C:\Users\manik\source\repos\DotNetCoreMVC-Oct\EmployeeMVCApplication\EmployeeMVCApplication\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetPrivacy.cshtml.g.cs
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\EmployeeMVCApplication\EmployeeMVCApplication\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Index.cshtml.g.cs
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\EmployeeMVCApplication\EmployeeMVCApplication\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Test.cshtml.g.cs
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\EmployeeMVCApplication\EmployeeMVCApplication\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\EmployeeMVCApplication\EmployeeMVCApplication\obj\Debug\netcoreapp3.1\Razor\Views\Home\ReturnHtml.cshtml.g.cs
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\EmployeeMVCApplication\EmployeeMVCApplication\obj\Debug\netcoreapp3.1\Razor\Views\Shared\PartialView.cshtml.g.cs

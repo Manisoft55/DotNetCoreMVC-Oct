@@ -9,8 +9,8 @@ namespace EmployeeMVCApplication.Controllers
             return View();
         }
 
-        [Route("[controller]/EmployeeTestMehod")]
-        [Route("[controller]/EmployeeTestMehodOne")]
+        //[Route("[controller]/EmployeeTestMehod")]
+        //[Route("[controller]/EmployeeTestMehodOne")]
         public IActionResult Test()
         {
             return View();

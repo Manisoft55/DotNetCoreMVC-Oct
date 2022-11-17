@@ -50,10 +50,10 @@ namespace EmployeeMVCApplication
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=GetPrivacy}/{id?}");
+                    pattern: "{controller=Home}/{action=ReturnHtml}/{id?}");
                 endpoints.MapControllerRoute(
                    name: "employee",
-                   pattern: "{controller=employee}/{action=index}/{id?}");
+                   pattern: "{controller=employee}/{action=Test}/{id?}");
             });
            
         }
