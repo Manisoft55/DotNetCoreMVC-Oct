@@ -1,4 +1,5 @@
-﻿using EmployeeMVCApplication.Models;
+﻿using EmployeeMVCApplication.Filters;
+using EmployeeMVCApplication.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -9,6 +10,8 @@ using System.Threading.Tasks;
 
 namespace EmployeeMVCApplication.Controllers
 {
+    [CusomAuthorizationFilter]
+    [CustomResourceFilter]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -18,6 +21,8 @@ namespace EmployeeMVCApplication.Controllers
             _logger = logger;
         }
 
+        [CustomActionFilter]
+        [CustomResultFilter]
         public ViewResult Index()
         {
             return View();            
