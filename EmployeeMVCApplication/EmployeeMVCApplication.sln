@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeMVCApplication", "EmployeeMVCApplication\EmployeeMVCApplication.csproj", "{3E2E3475-733D-4C89-8735-3E3A7E8F477C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeMVCApplication", "EmployeeMVCApplication\EmployeeMVCApplication.csproj", "{3E2E3475-733D-4C89-8735-3E3A7E8F477C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagement.Model", "..\WebApiSample\EmployeeManagement.Model\EmployeeManagement.Model.csproj", "{B2EFEDBF-FC40-4F35-9A91-738675B22064}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3E2E3475-733D-4C89-8735-3E3A7E8F477C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E2E3475-733D-4C89-8735-3E3A7E8F477C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E2E3475-733D-4C89-8735-3E3A7E8F477C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2EFEDBF-FC40-4F35-9A91-738675B22064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2EFEDBF-FC40-4F35-9A91-738675B22064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2EFEDBF-FC40-4F35-9A91-738675B22064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2EFEDBF-FC40-4F35-9A91-738675B22064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

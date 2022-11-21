@@ -84,6 +84,15 @@ namespace EmployeeMVCApplication.Controllers
             return "Test";
         }
 
+        public ViewResult AddEmployee()
+        {
+            return View();
+        }
+
+        public ViewResult EmployeeDetails()
+        {
+            return View();
+        }
         
     }
 }
