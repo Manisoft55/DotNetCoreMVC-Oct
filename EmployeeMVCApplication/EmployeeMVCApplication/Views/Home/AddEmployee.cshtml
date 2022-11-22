@@ -28,12 +28,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="EmployeeEmail" class="control-label"></label>
-                <input asp-for="EmployeeEmail" class="form-control" />
+                <input asp-for="EmployeeEmail" class="form-control" value="@ViewBag.EmailId"/>
                 <span asp-validation-for="EmployeeEmail" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="EmployeePhoneNumber" class="control-label"></label>
-                <input asp-for="EmployeePhoneNumber" class="form-control" />
+                <input asp-for="EmployeePhoneNumber" class="form-control" value="@ViewData["PhoneNumber"]" />
                 <span asp-validation-for="EmployeePhoneNumber" class="text-danger"></span>
             </div>
             <div class="form-group">

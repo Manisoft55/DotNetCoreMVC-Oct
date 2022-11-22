@@ -1,4 +1,5 @@
-﻿using EmployeeMVCApplication.Filters;
+﻿using EmployeeManagement.Model;
+using EmployeeMVCApplication.Filters;
 using EmployeeMVCApplication.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -57,9 +58,11 @@ namespace EmployeeMVCApplication.Controllers
             return Redirect("https://www.tcs.com/");
         }
 
-        public ViewResult Privacy()
+        public RedirectToActionResult Privacy()
         {
-            return View();
+            TempData["EmailId"] = "TestOne@gmail.com";
+            return RedirectToAction("AddEmployee");
+            //return View();
         }
 
         public PartialViewResult PartialViewResult()
@@ -86,7 +89,12 @@ namespace EmployeeMVCApplication.Controllers
 
         public ViewResult AddEmployee()
         {
-            return View();
+            var empDetails = new EmployeeDetails() { EmployeeFirstName = "Raj", EmployeeLastName = "Kumar" };
+            ViewBag.EmailId = Convert.ToString(TempData["EmailId"]);
+            TempData.Peek("EmailId");
+            TempData.Keep("EmailId");
+            ViewData["PhoneNumber"] = "962611111";
+            return View(empDetails);
         }
 
         public ViewResult EmployeeDetails()
