@@ -3,10 +3,13 @@ using EmployeeMVCApplication.Filters;
 using EmployeeMVCApplication.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace EmployeeMVCApplication.Controllers
@@ -89,12 +92,29 @@ namespace EmployeeMVCApplication.Controllers
 
         public ViewResult AddEmployee()
         {
-            var empDetails = new EmployeeDetails() { EmployeeFirstName = "Raj", EmployeeLastName = "Kumar" };
-            ViewBag.EmailId = Convert.ToString(TempData["EmailId"]);
-            TempData.Peek("EmailId");
-            TempData.Keep("EmailId");
-            ViewData["PhoneNumber"] = "962611111";
-            return View(empDetails);
+            return View();
+        }
+
+        [HttpPost]
+        public RedirectToActionResult AddEmployee(EmployeeDetails employeeDetails)
+        {
+            HttpClient httpClient = new HttpClient();
+            var data = new StringContent(JsonConvert.SerializeObject(employeeDetails), Encoding.UTF8, "application/json");
+            var response = httpClient.PostAsync("https://localhost:44366/employeeapi/ApiPractise/CreateEmployee", data).Result;
+            var empId = response.Content.ReadAsStringAsync().Result;
+            return RedirectToAction("GetEmployee");            
+        }
+
+        public ViewResult GetEmployee()
+        {
+            var empList = new List<EmployeeDetails>();
+            using (HttpClient httpClient = new HttpClient())
+            {
+                var result = httpClient.GetAsync("https://localhost:44366/employeeapi/ApiPractise/SelectEmployeeDetails").Result;
+                var response = result.Content.ReadAsStringAsync().Result;
+                empList = JsonConvert.DeserializeObject<List<EmployeeDetails>>(response);
+            }
+            return View(empList);
         }
 
         public ViewResult EmployeeDetails()

@@ -39,7 +39,7 @@ namespace EmployeeManagement.BLL
             employeeDAL.DeleteEmployeeDetails(empId);
         }
 
-        public int CreateEmployeeDetails(EmployeeInfo employeeInfo)
+        public int CreateEmployeeDetails(EmployeeDetails employeeInfo)
         {
             return employeeDAL.CreateEmployeeDetails(employeeInfo);
         }

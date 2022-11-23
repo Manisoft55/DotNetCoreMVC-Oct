@@ -93,10 +93,15 @@ namespace WebApiSample.Controllers
         }
 
         [HttpPost]
-        public int CreateEmployee([FromBody]EmployeeInfo employeeInfo)
+        [Route("CreateEmployee")]
+        public int CreateEmployee([FromBody] EmployeeDetails employeeInfo)
         {
             return employeeEntityBL.CreateEmployeeDetails(employeeInfo);
         }
+        //public int CreateEmployee([FromBody]EmployeeInfo employeeInfo)
+        //{
+        //    return employeeEntityBL.CreateEmployeeDetails(employeeInfo);
+        //}
         
 
     }

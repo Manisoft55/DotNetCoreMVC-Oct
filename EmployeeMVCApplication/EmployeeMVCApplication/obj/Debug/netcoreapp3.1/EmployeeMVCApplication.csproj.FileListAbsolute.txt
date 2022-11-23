@@ -114,3 +114,4 @@ C:\Users\manik\source\repos\DotNetCoreMVC-Oct\EmployeeMVCApplication\EmployeeMVC
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\EmployeeMVCApplication\EmployeeMVCApplication\bin\Debug\netcoreapp3.1\EmployeeManagement.Model.dll
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\EmployeeMVCApplication\EmployeeMVCApplication\bin\Debug\netcoreapp3.1\EmployeeManagement.Model.pdb
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\EmployeeMVCApplication\EmployeeMVCApplication\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddEmployee.cshtml.g.cs
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\EmployeeMVCApplication\EmployeeMVCApplication\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetEmployee.cshtml.g.cs
