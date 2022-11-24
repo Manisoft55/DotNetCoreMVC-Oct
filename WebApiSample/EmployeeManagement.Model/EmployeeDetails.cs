@@ -28,7 +28,8 @@ namespace EmployeeManagement.Model
         public string EmployeePhoneNumber { get; set; }
 
         [Required(ErrorMessage = "Please enter hire date")]
-        public DateTime EmployeeHireDate {  get; set; }
+        //[DataType (DataType.DateTime)]
+        public string EmployeeHireDate {  get; set; }
 
         [Required(ErrorMessage = "Please enter your job id")]
         public int EmployeeJobId { get; set; }

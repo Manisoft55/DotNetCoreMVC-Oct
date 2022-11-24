@@ -132,5 +132,28 @@ namespace EmployeeManagement.DAL
             }
         }
 
+        public void EditEmployeeDetails(EmployeeDetails employeeInfo)
+        {
+            string strConString = @"Data Source=MSP-LAPTOP;Initial Catalog=InstituteCmd;Integrated Security=True";
+            using (SqlConnection con = new SqlConnection(strConString))
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("dbo.EditEmployee", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@emp_id", employeeInfo.EmployeeID);
+                cmd.Parameters.AddWithValue("@first_name", employeeInfo.EmployeeFirstName);
+                cmd.Parameters.AddWithValue("@last_name", employeeInfo.EmployeeLastName);
+                cmd.Parameters.AddWithValue("@email", employeeInfo.EmployeeEmail);
+                cmd.Parameters.AddWithValue("@phone_number", employeeInfo.EmployeePhoneNumber);
+                //cmd.Parameters.AddWithValue("@hire_date", employeeInfo.EmployeeHireDate);
+                cmd.Parameters.AddWithValue("@job_id", employeeInfo.EmployeeJobId);
+                cmd.Parameters.AddWithValue("@salary", employeeInfo.EmployeeSalary);
+                cmd.Parameters.AddWithValue("@manager_id", employeeInfo.EmployeeManagerID);
+                cmd.Parameters.AddWithValue("@department_id", employeeInfo.EmployeeDepartmentID);
+
+                cmd.ExecuteNonQuery();
+            }
+        }
+
     }
 }

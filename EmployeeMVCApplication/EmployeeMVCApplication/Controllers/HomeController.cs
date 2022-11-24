@@ -117,6 +117,27 @@ namespace EmployeeMVCApplication.Controllers
             return View(empList);
         }
 
+        public RedirectToActionResult DeleteEmployee(int empID)
+        {
+            HttpClient httpClient = new HttpClient();
+            var response = httpClient.DeleteAsync("https://localhost:44366/employeeapi/ApiPractise/DeleteEmployee?empid=" + empID).Result;
+            return RedirectToAction("GetEmployee");
+        }
+
+        public ViewResult EditEmployee(EmployeeDetails employeeDetails)
+        {
+            return View(employeeDetails);
+        }
+
+        [HttpPost]
+        public RedirectToActionResult UpdateEmployee(EmployeeDetails employeeDetails)
+        {
+            HttpClient httpClient = new HttpClient();
+            var data = new StringContent(JsonConvert.SerializeObject(employeeDetails), Encoding.UTF8, "application/json");
+            var response = httpClient.PutAsync("https://localhost:44366/employeeapi/ApiPractise/EditEmployee", data).Result;            
+            return RedirectToAction("GetEmployee");
+        }
+
         public ViewResult EmployeeDetails()
         {
             return View();

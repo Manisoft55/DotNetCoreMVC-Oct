@@ -43,5 +43,10 @@ namespace EmployeeManagement.BLL
         {
             return employeeDAL.CreateEmployeeDetails(employeeInfo);
         }
+
+        public void EditEmployeeDetails(EmployeeDetails employeeInfo)
+        {
+            employeeDAL.EditEmployeeDetails(employeeInfo);
+        }
     }
 }

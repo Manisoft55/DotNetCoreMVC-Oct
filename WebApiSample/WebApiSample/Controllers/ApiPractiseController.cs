@@ -43,7 +43,7 @@ namespace WebApiSample.Controllers
             EmployeeLastName = r.Field<string>("last_name"),
             EmployeeEmail = r.Field<string>("email"),
             EmployeePhoneNumber = r.Field<string>("phone_number"),
-            EmployeeHireDate = r.Field<DateTime>("hire_date"),
+            EmployeeHireDate = Convert.ToString(r.Field<DateTime>("hire_date")),
             EmployeeJobId = r.Field<int>("job_id"),
             EmployeeSalary = r.Field<decimal>("salary"),
             EmployeeManagerID = r.Field<int>("manager_id"),
@@ -87,6 +87,7 @@ namespace WebApiSample.Controllers
         }
 
         [HttpDelete]
+        [Route("DeleteEmployee")]
         public void DeleteEmployee(int empid)
         {
             employeeEntityBL.DeleteEmployee(empid);
@@ -98,11 +99,18 @@ namespace WebApiSample.Controllers
         {
             return employeeEntityBL.CreateEmployeeDetails(employeeInfo);
         }
+
+        [HttpPut]
+        [Route("EditEmployee")]
+        public void EditEmployee([FromBody] EmployeeDetails employeeInfo)
+        {
+            employeeEntityBL.EditEmployeeDetails(employeeInfo);
+        }
         //public int CreateEmployee([FromBody]EmployeeInfo employeeInfo)
         //{
         //    return employeeEntityBL.CreateEmployeeDetails(employeeInfo);
         //}
-        
+
 
     }
 }
