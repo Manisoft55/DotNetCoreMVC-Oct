@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "576f83c8-88b9-4742-97aa-10695193b0ca": {
+      "ProjectGuid": "576f83c8-88b9-4742-97aa-10695193b0ca",
+      "DisplayName": "MVCWithEF",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

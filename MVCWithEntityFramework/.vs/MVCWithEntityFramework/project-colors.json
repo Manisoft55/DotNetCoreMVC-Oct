@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ae4910d7-1f58-43bf-b781-a869060c92f0": {
+      "ProjectGuid": "ae4910d7-1f58-43bf-b781-a869060c92f0",
+      "DisplayName": "MVCWithEntityFramework",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
