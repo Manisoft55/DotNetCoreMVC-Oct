@@ -1,0 +1,27 @@
+﻿@model MVCwithEFCoreV3.Controllers.CreateUserVm
+<form asp-action="Index" asp-controller="Home">
+
+    <label class="label">User name</label>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLe5PABjXc17cjIMOibECLM7ppDwMmiDg6Dw&usqp=CAU" class="rounded-circle" height="100" width="100" asp-append-version="true" />  
+    <div class="col-md-10">
+        <input type="text" asp-for="UserName" />
+    </div>
+    <label class="label">Select a Role</label>
+    <div class="col-md-10">
+    <input asp-for="SelectedRole" type="radio" value="Master" /> Master
+    @foreach (var item in Model.Roles)
+    {
+        //Radio button
+       <input asp-for="SelectedRole" type="radio" value="@item.Id" /> @item.RoleName
+    }
+    </div>
+<div class="form-group">
+                <label  class="control-label"> Select City</label>
+
+                <select name="products" class="form-control" asp-items="@ViewBag.cities"></select>
+
+
+            </div>
+
+    <input type="submit" />
+</form>
