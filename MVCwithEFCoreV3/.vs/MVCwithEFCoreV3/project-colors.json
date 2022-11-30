@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c39436cb-0f3a-4203-806f-677b79d0f77c": {
+      "ProjectGuid": "c39436cb-0f3a-4203-806f-677b79d0f77c",
+      "DisplayName": "MVCwithEFCoreV3",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

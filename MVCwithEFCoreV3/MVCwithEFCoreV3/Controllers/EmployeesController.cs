@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +10,8 @@ using MVCwithEFCoreV3.Models.DB;
 
 namespace MVCwithEFCoreV3.Controllers
 {
+    // Only allow admin roles
+    [Authorize(Roles = "Admin,Receptionist,Security")]
     public class EmployeesController : Controller
     {
         private readonly InstituteCmdContext _context;

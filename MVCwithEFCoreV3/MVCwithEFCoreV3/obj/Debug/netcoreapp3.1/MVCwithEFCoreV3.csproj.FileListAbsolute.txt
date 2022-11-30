@@ -157,3 +157,6 @@ C:\Users\manik\source\repos\DotNetCoreMVC-Oct\MVCwithEFCoreV3\MVCwithEFCoreV3\ob
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\MVCwithEFCoreV3\MVCwithEFCoreV3\obj\Debug\netcoreapp3.1\Razor\Views\EmployeeDetails\Edit.cshtml.g.cs
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\MVCwithEFCoreV3\MVCwithEFCoreV3\obj\Debug\netcoreapp3.1\Razor\Views\EmployeeDetails\Index.cshtml.g.cs
 C:\Users\manik\source\repos\DotNetCoreMVC-Oct\MVCwithEFCoreV3\MVCwithEFCoreV3\obj\Debug\netcoreapp3.1\Razor\Views\Home\RadioAndDropDown.cshtml.g.cs
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\MVCwithEFCoreV3\MVCwithEFCoreV3\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\MVCwithEFCoreV3\MVCwithEFCoreV3\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
+C:\Users\manik\source\repos\DotNetCoreMVC-Oct\MVCwithEFCoreV3\MVCwithEFCoreV3\obj\Debug\netcoreapp3.1\Razor\Views\Account\LogOut.cshtml.g.cs
